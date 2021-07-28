@@ -26,7 +26,7 @@ print ("******************************************")
 print ("Current Temperature is: {:.2f} deg C".format(nature['Temp']))
 print ("{},{} \n".format("Current Weather desc :" ,nature['Weather']))
 print ("{},{},{} \n".format("Current Humidity :",nature['Humidity'] ,"%"))
-print ("{},{},{} \n".format("Current iWind Speed :", nature['Wind'], "%"))
+print ("{},{},{} \n".format("Current iWind Speed :", nature['Wind'], "kmph"))
 
 print ("******************************************")
 
